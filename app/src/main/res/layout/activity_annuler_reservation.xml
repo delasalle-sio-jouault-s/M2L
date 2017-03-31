@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/tailleMarges"
+    tools:context="simon.android.m2l.AnnulerReservation">
+
+    <TextView
+        android:id="@+id/annuler_reservation_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/annuler_reservation_titre1" />
+
+    <EditText
+        android:id="@+id/annuler_reservation_editTextNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/annuler_reservation_saisie_numero" />
+
+    <Button
+        android:id="@+id/annuler_reservation_buttonConfirmerReservation"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/annuler_reservation_bouton_annuler" />
+
+    <Button
+        android:id="@+id/annuler_reservation_buttonRetourner"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/annuler_reservation_bouton_retourner" />
+
+    <TextView
+        android:id="@+id/annuler_reservation_textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

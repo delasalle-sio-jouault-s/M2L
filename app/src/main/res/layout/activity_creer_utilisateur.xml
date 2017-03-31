@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/tailleMarges"
+    tools:context="simon.android.m2l.CreerUtilisateur">
+
+    <TextView
+        android:id="@+id/creer_utilisateur_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/creer_utilisateur_titre1" />
+
+    <EditText
+        android:id="@+id/creer_utilisateur_editTextMdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/creer_utilisateur_saisie_nom" />
+
+    <TextView
+        android:id="@+id/creer_utilisateur_textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/creer_utilisateur_titre2" />
+
+    <RadioGroup
+        android:id="@+id/creer_utilisateur_radioGroupNiveau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/creer_utilisateur_radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/creer_utilisateur_radio0" />
+
+        <RadioButton
+            android:id="@+id/creer_utilisateur_radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/creer_utilisateur_radio1" />
+
+        <RadioButton
+            android:id="@+id/creer_utilisateur_radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/creer_utilisateur_radio2" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/creer_utilisateur_editTextAdrMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/creer_utilisateur_saisie_adrmail" />
+
+    <Button
+        android:id="@+id/creer_utilisateur_buttonCreer"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/creer_utilisateur_bouton_creer" />
+
+    <Button
+        android:id="@+id/creer_utilisateur_buttonRetourner"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/creer_utilisateur_bouton_retourner" />
+
+    <TextView
+        android:id="@+id/creer_utilisateur_textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

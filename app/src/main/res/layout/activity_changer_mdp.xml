@@ -5,56 +5,44 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="@dimen/tailleMarges"
-    tools:context="simon.android.m2l.MainActivity">
+    tools:context="simon.android.m2l.ChangerMdp">
 
     <TextView
-        android:id="@+id/main_textView1"
+        android:id="@+id/changer_mdp_textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/main_titre1" />
+        android:text="@string/changer_mdp_titre1" />
 
     <EditText
-        android:id="@+id/main_editTextNom"
+        android:id="@+id/changer_mdp_editTextMdp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:hint="@string/main_saisie_nom" />
+        android:hint="@string/changer_mdp_saisie_entrer" />
 
     <EditText
-        android:id="@+id/main_editTextMdp"
+        android:id="@+id/changer_mdp_editTextConfirmationMdp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:hint="@string/main_saisie_mdp" />
-
-    <CheckBox
-        android:id="@+id/main_checkBoxMdpVisible"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/main_case_mdp_visible" />
-
-    <CheckBox
-        android:id="@+id/main_checkBoxMemoriser"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/main_case_memoriser" />
+        android:inputType="textPersonName"
+        android:hint="@string/changer_mdp_saisie_confirmer" />
 
     <Button
-        android:id="@+id/main_buttonConnecter"
+        android:id="@+id/changer_mdp_buttonChanger"
         style="@android:style/Widget.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/main_bouton_connecter" />
+        android:text="@string/changer_mdp_bouton_changer" />
 
     <Button
-        android:id="@+id/main_buttonMdpOublie"
+        android:id="@+id/changer_mdp_buttonRetourner"
         style="@android:style/Widget.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/main_bouton_mdpOublie" />
+        android:text="@string/changer_mdp_bouton_retourner" />
 
     <TextView
-        android:id="@+id/main_textViewMessage"
+        android:id="@+id/changer_mdp_textViewMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>

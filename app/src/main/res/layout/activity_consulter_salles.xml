@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/tailleMarges"
+    tools:context="simon.android.m2l.ConsulterSalles">
+
+    <TextView
+        android:id="@+id/consulter_salles_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/consulter_salles_titre1" />
+
+    <Button
+        android:id="@+id/consulter_salles_buttonRetourner"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consulter_salles_bouton_retourner" />
+
+    <TextView
+        android:id="@+id/consulter_salles_textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/consulter_salles_textViewNombreReservations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/consulter_salles_titre2" />
+
+    <ListView
+        android:id="@+id/consulter_salles_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

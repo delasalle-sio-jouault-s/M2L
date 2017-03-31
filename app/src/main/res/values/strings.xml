@@ -1,3 +1,73 @@
 <resources>
     <string name="app_name">M2L</string>
+
+    <string name="title_activity_main">M2L - Réservation de salles</string>
+    <string name="title_activity_menu_general">M2L - Réservation de salles</string>
+    <string name="title_activity_consulter_salles">M2L - Réservation de salles</string>
+    <string name="title_activity_consulter_reservations">M2L - Réservation de salles</string>
+    <string name="title_activity_confirmer_reservation">M2L - Réservation de salles</string>
+    <string name="title_activity_annuler_reservation">M2L - Réservation de salles</string>
+    <string name="title_activity_changer_mdp">M2L - Réservation de salles</string>
+    <string name="title_activity_creer_utilisateur">M2L - Réservation de salles</string>
+    <string name="title_activity_supprimer_utilisateur">M2L - Réservation de salles</string>
+
+    <string name="main_titre1">M\'identifier</string>
+    <string name="main_saisie_nom">Entrez votre nom</string>
+    <string name="main_saisie_mdp">Entrez votre mot de passe</string>
+    <string name="main_case_mdp_visible">Afficher le mot de passe</string>
+    <string name="main_case_memoriser">Mémoriser les paramètres</string>
+    <string name="main_bouton_connecter">Me connecter</string>
+    <string name="main_bouton_mdpOublie">J\'ai oublé mon mot de passe</string>
+
+    <string name="menu_titre1">Menu</string>
+    <string name="menu_bouton_consulter_salles">Consulter les salles</string>
+    <string name="menu_bouton_consulter_reservations">Consulter mes réservations</string>
+    <string name="menu_bouton_confirmer_reservation">Confirmer une réservation</string>
+    <string name="menu_bouton_annuler_reservation">Annuler une réservation</string>
+    <string name="menu_bouton_modifier_mdp">Modifier mon mot de passe</string>
+    <string name="menu_bouton_creer_utilisateur">Creer un utilisateur</string>
+    <string name="menu_bouton_supprimer_utilisateur">Supprimer un utilisateur</string>
+    <string name="menu_bouton_quitter">Quitter l\'application</string>
+
+    <string name="consulter_salles_titre1">Consulter les salles</string>
+    <string name="consulter_salles_titre2">14 salles disponibles en réservation.</string>
+    <string name="consulter_salles_bouton_retourner">Retourner au menu</string>
+
+    <string name="consulter_reservations_titre1">Consulter mes réservations</string>
+    <string name="consulter_reservations_titre2">Nombre de réservations : 0</string>
+    <string name="consulter_reservations_bouton_retourner">Retourner au menu</string>
+
+    <string name="confirmer_reservation_titre1">Confirmer une réservation</string>
+    <string name="confirmer_reservation_saisie_numero">Entrez le n° de la réservation</string>
+    <string name="confirmer_reservation_bouton_confirmer">Confirmer la réservation</string>
+    <string name="confirmer_reservation_bouton_retourner">Retourner au menu</string>
+
+    <string name="annuler_reservation_titre1">Annuler une réservation</string>
+    <string name="annuler_reservation_saisie_numero">Entrez le n° de la réservation</string>
+    <string name="annuler_reservation_bouton_annuler">Annuler la réservation</string>
+    <string name="annuler_reservation_bouton_retourner">Retourner au menu</string>
+
+
+
+    <string name="changer_mdp_titre1">Changer mon mot de passe</string>
+    <string name="changer_mdp_saisie_entrer">Entrez votre nouveau mot de passe</string>
+    <string name="changer_mdp_saisie_confirmer">Confirmez votre nouveau mot de passe</string>
+    <string name="changer_mdp_bouton_changer">Changer mon mot de passe</string>
+    <string name="changer_mdp_bouton_retourner">Retourner au menu</string>
+
+    <string name="creer_utilisateur_titre1">Créer un compte utilisateur</string>
+    <string name="creer_utilisateur_saisie_nom">Entrez le nom de l\'utilisateur</string>
+    <string name="creer_utilisateur_titre2">Choisissez le niveau :</string>
+    <string name="creer_utilisateur_radio0">Invité (niveau 0)</string>
+    <string name="creer_utilisateur_radio1">Utilisateur (niveau 1)</string>
+    <string name="creer_utilisateur_radio2">Administrateur (niveau 2)</string>
+    <string name="creer_utilisateur_saisie_adrmail">Entrez l\'adresse mail</string>
+    <string name="creer_utilisateur_bouton_creer">Créer l\'utilisateur</string>
+    <string name="creer_utilisateur_bouton_retourner">Retourner au menu</string>
+
+    <string name="supprimer_utilisateur_titre1">Supprimer un compte utilisateur</string>
+    <string name="supprimer_utilisateur_saisie_nom">Entrez le nom de l\'utilisateur</string>
+    <string name="supprimer_utilisateur_bouton_supprimer">Supprimer l\'utilisateur</string>
+    <string name="supprimer_utilisateur_bouton_retourner">Retourner au menu</string>
+
 </resources>

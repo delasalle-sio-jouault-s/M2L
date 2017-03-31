@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/tailleMarges"
+    tools:context="simon.android.m2l.SupprimerUtilisateur">
+
+    <TextView
+        android:id="@+id/supprimer_utilisateur_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/supprimer_utilisateur_titre1" />
+
+    <EditText
+        android:id="@+id/supprimer_utilisateur_editTextNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/supprimer_utilisateur_saisie_nom" />
+
+    <Button
+        android:id="@+id/supprimer_mdp_buttonChanger"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/supprimer_utilisateur_bouton_supprimer" />
+
+    <Button
+        android:id="@+id/supprimer_utilisateur_buttonRetourner"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/supprimer_utilisateur_bouton_retourner" />
+
+    <TextView
+        android:id="@+id/supprimer_utilisateur_textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/menu_linearLayout1"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="simon.android.m2l.MenuGeneral">
+
+
+<TextView
+        android:id="@+id/menu_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_titre1" />
+
+    <Button
+        android:id="@+id/menu_buttonConsulterSalles"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_consulter_salles" />
+
+    <Button
+        android:id="@+id/menu_buttonConsulterReservations"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_consulter_reservations" />
+
+    <Button
+        android:id="@+id/menu_buttonConfirmerReservation"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_confirmer_reservation" />
+
+    <Button
+        android:id="@+id/menu_buttonAnnulerReservation"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_annuler_reservation" />
+
+    <Button
+        android:id="@+id/menu_buttonChangerMdp"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_modifier_mdp" />
+
+    <Button
+        android:id="@+id/menu_buttonCreerUtilisateur"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_creer_utilisateur" />
+
+    <Button
+        android:id="@+id/menu_buttonSupprimerUtilisateur"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_supprimer_utilisateur" />
+
+    <Button
+        android:id="@+id/menu_buttonQuitter"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_bouton_quitter" />
+
+    <TextView
+        android:id="@+id/menu_textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
